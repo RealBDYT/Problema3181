@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //Zile an chestii
+    int x;
+    int y;
+    int n;
+
+    cout<<"Cat zile dureaza un an??"<<endl;
+    cin>>x;
+
+    cout<<"Cate ore dureaza o zi??"<<endl;
+    cin>>y;
+
+    cout<<"Cate antene trebuie sa aiba lggle"<<endl;
+    cin>>n;
+
+    cout<<"Cati ani va dura ca lggle sa aiba"<<" "<<n<<" "<<"antene"<<endl;
+    cout<<n / (x * y)<<endl;
+
+    cout<<"Cate zile mai sunt??"<<endl;
+    cout<<(n % (x * y)) / y<<endl;
+
+    cout<<"Cate ore mai sunt??"<<endl;
+    cout<<(n % (x * y)) % y<<endl;
+
+    return 0;
+}
